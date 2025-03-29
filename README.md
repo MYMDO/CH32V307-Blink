@@ -1,6 +1,18 @@
  ## [CH32V307-Blink](https://wch-ic.com/products/CH32V307.html) 
 
-Features
+This code makes two LEDs blink in a cycle.
+
+Here's what it does:
+
+ 1. It turns on one LED (PA15) and turns off the other LED (PB4).
+ 2. Then, it waits for a short time (500 milliseconds).
+ 3. Next, it turns off the first LED (PA15) and turns on the second LED (PB4).
+ 4. It waits again for a short time (500 milliseconds).
+ 5. It keeps repeating steps 1-4, so the LEDs keep blinking in a cycle.
+
+Think of it like a seesaw: when one LED is on, the other is off, and they keep switching back and forth.
+
+## Features
 
   -  Qingke V4F processor, up to 144MHz system clock frequency.
   -  Single-cycle multiplication and hardware division. Hardware float point unit (FPU).
