@@ -1,9 +1,10 @@
- ## [CH32V307-Blink](https://wch-ic.com/products/CH32V307.html) 
+ # [CH32V307-Blink](https://wch-ic.com/products/CH32V307.html) 
 
- 32-bit Interconnected RISC-V MCU CH32V307 | https://github.com/openwch/ch32v307
-
+ ## [32-bit Interconnected RISC-V MCU CH32V307](https://github.com/openwch/ch32v307)
+ ## [CH32V307VCT6 RISC-V based development board](https://github.com/yym36100/RISC-V_CH32V307VCT6)
+ 
  ---
-
+ 
 This code makes two LEDs blink in a cycle.
 
 Here's what it does:
@@ -15,6 +16,8 @@ Here's what it does:
  5. It keeps repeating steps 1-4, so the LEDs keep blinking in a cycle.
 
 Think of it like a seesaw: when one LED is on, the other is off, and they keep switching back and forth.
+
+---
 
 ## Features
 
