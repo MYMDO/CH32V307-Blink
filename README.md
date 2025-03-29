@@ -1,5 +1,9 @@
  ## [CH32V307-Blink](https://wch-ic.com/products/CH32V307.html) 
 
+ 32-bit Interconnected RISC-V MCU CH32V307 | https://github.com/openwch/ch32v307
+
+ ---
+
 This code makes two LEDs blink in a cycle.
 
 Here's what it does:
