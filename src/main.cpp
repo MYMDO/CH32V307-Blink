@@ -89,8 +89,8 @@ int main(void)
         else
         {
             // When blinking is disabled, force both LEDs off
-            GPIO_WriteBit(BLINKY_GPIO_PORT_PA15, BLINKY_GPIO_PIN_PA15, Bit_RESET);
-            GPIO_WriteBit(BLINKY_GPIO_PORT_PB4,  BLINKY_GPIO_PIN_PB4,  Bit_RESET);
+            GPIO_WriteBit(BLINKY_GPIO_PORT_PA15, BLINKY_GPIO_PIN_PA15, Bit_RESET); // Turn off LED on PA15
+            GPIO_WriteBit(BLINKY_GPIO_PORT_PB4,  BLINKY_GPIO_PIN_PB4,  Bit_RESET); // Turn off LED on PB4
         }
  
         Delay_Ms(500); // 500ms delay
