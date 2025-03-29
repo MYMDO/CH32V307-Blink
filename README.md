@@ -4,6 +4,27 @@
  ## [CH32V307VCT6 RISC-V based development board](https://github.com/yym36100/RISC-V_CH32V307VCT6)
  
  ---
+
+The code configures a microcontroller to control two LEDs and one push-button. Here's a simple breakdown:
+
+- **Initialization:**  
+  - Two output pins are set up for the LEDs (one on PA15 and one on PB4).  
+  - An input pin is set up for a push-button (on PB3) using an internal pull-up, so the button is active low.
+
+- **Main Loop Behavior:**  
+  - The program continuously checks if the button is pressed. It uses a small delay (debounce) to ignore any false triggers.  
+  - When the button is detected as pressed, it toggles a flag (`blinkingEnabled`) that controls whether the LEDs blink or not.
+  
+- **LED Blinking:**  
+  - If blinking is enabled, the code alternates which LED is on: when PA15 is on, PB4 is off and vice versa.
+  - A delay of 500 milliseconds is used between toggles.
+  
+- **Button Effect:**  
+  - If blinking is disabled, both LEDs are turned off regardless of their previous state.
+
+Overall, the program lets you control whether two LEDs blink alternately or stay off by pressing a button.
+
+ ---
  
 This code makes two LEDs blink in a cycle.
 
